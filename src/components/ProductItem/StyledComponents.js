@@ -9,7 +9,7 @@ export const ProductList=styled.li`
     width:26%;
     color:black;
     margin:6px;
-    height:400px;
+    height:300px;
     font-family:Roboto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     line-height:1;
@@ -17,8 +17,8 @@ export const ProductList=styled.li`
 
 `
 export const ProductImage=styled.img`
-    height:200px;
-    width:100%;
+    height:150px;
+    width:50%;
 `
 export const ProductHeading=styled.h1`
 color:grey;
@@ -30,19 +30,16 @@ export const ProductRatingContainer=styled.div`
     flex-direction:row;
     align-items:center;
     justify-content:space-between;
-    width:50%;
+    width:30%;
     background-color:${(props)=>props.icon==="icon"?"#2FAD70":"transaparent"};
     font-size:80%;
     color:${(props)=>props.icon==="icon"?"#ffffff":"transaparent"};
     border-radius:12px;
     height:22px;
     padding:6px;
-    @media screen and (max-width:576px)
-    {
-        display:none;
-    }
     
 `
+
 
 export const ProductRating=styled.p`
 margin-right:8px;
