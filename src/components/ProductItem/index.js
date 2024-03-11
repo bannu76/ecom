@@ -7,6 +7,7 @@ const ProductItem =(props)=>{
 
 
     
+    
     const {item}=props
     const {rating}=item
     console.log(item)
