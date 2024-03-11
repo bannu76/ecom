@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 
 export const ProductList=styled.li`
-
     display:flex;
     flex-direction:column;
     padding:16px;
